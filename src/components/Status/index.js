@@ -15,7 +15,7 @@ export default () => {
       </p>
     )
   } else {
-    const { name, email } = getCurrentUser()
+    const { name } = getCurrentUser()
 
     details = (
       <p className={styles[`status__text`]}>

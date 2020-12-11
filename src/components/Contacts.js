@@ -7,7 +7,7 @@ const Contacts = () => {
 
   return (
     <View title="Contacts">
-      <p>Pour nous contacter, utilisez le formulaire ci-dessous:</p>
+      <p> Cher { name }Pour nous contacter, utilisez le formulaire ci-dessous:</p>
       <p>
         <em>On disait qu'ici il y avait un formulaire de contact :-)</em>.
       </p>
