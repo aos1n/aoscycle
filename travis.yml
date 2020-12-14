@@ -1,0 +1,17 @@
+Language: node_js
+node_js:
+- "14.15.1"
+dist: bionic
+sudo: false
+cache:
+        directories:
+                - node_modules
+before_deploy:                  
+  - npm install netlifly-cli -g
+  - yarn build  
+deploy:                
+  provider: script
+  edge: true
+  scrip: netlify deploy --dir=dist --prod
+  on:
+          branch: main

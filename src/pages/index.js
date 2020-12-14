@@ -7,9 +7,9 @@ import Status from "../components/Status"
 const Index = () => (
   <Layout>
     <Status />
-    <View title="Bienvenue chez IT Corail">
+    <View title="Welcome chez IT">
       <p>
-       Aos gère tout   IT Corail se veut un partenaire de services informatiques pour toutes les entreprises, administrations et associations en région liégeoise. 
+       Aos1n gère tout   IT Corail se veut un partenaire de services informatiques pour toutes les entreprises, administrations et associations en région liégeoise. 
       </p>
       
       <p>Création de sites vidéo tres biens car cest le meiw mieuw, gestion de bases de données, noms de domaines, sécurité, nous pouvons rapidement préparer un devis pour vous aider à développer vos projets.
