@@ -14,4 +14,4 @@ deploy:
   edge: true
   scrip: netlify deploy --dir=dist --prod
   on:
-          branch: master
+          branch: main
